@@ -21,7 +21,7 @@ with open('requirements.txt', 'r') as f:
 
 
 setuptools.setup(
-    name="REPLACE",
+    name="datasmith",
     author="Nathan Juraj Michlo",
     author_email="NathanJMichlo@gmail.com",
 
@@ -31,8 +31,8 @@ setuptools.setup(
 
     install_requires=install_requires,
 
-    url="https://github.com/nmichlo/REPLACE",
-    description="replace this description!",
+    url="https://github.com/nmichlo/datasmith",
+    description="Create and convert machine learning datasets!",
     long_description=long_description,
     long_description_content_type="text/markdown",
 
