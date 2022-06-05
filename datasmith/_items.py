@@ -1,9 +1,8 @@
 from typing import Iterable
 from typing import Optional
 
-from datasmith import Annotation
-from datasmith import DatasetItem
-
+from datasmith._base import Annotation
+from datasmith._base import DatasetItem
 from datasmith._util import repr_truelike_kwargs_no_uid
 
 

@@ -2,10 +2,10 @@ import json
 import os
 from collections import defaultdict
 
-from datasmith import Annotation
-from datasmith import Bbox
-from datasmith import Dataset
-from datasmith._dataset_items import DatasetItemPath
+from datasmith._base import Annotation
+from datasmith._annotations import Bbox
+from datasmith._base import Dataset
+from datasmith._items import DatasetItemPath
 
 
 def import_coco(
@@ -55,7 +55,7 @@ if __name__ == '__main__':
 
     def main():
 
-        path = os.environ['DATASET_PATH']
+        path = "/Users/nmichlo/Desktop/active_df/df-datasets/data/fire-smoke/cvat-fire-smoke-v3_2022-06-01_14-00_coco/cvat-fire-smoke-v3_2022-06-01_14-00_coco"
 
         d = Dataset(name='basic_dataset', labels=['fire', 'smoke'])
 
